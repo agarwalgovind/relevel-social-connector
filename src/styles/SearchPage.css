@@ -1,0 +1,45 @@
+@media all and (min-width: 360px) {
+    .Search {
+        margin-left: 250px;
+    }
+
+    .Search form {
+        max-width: 320px;
+    }
+}
+
+.ss {
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    overflow: no-display;
+    border-radius: 5px;
+}
+
+.ss1 {
+    display: grid;
+    border-radius: 5px;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, 300px);
+}
+
+.searchBar-container{
+    margin: 20px;
+    background: rgb(219, 215, 213);
+    width: 50%;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.searchBar-container input{
+    background: rgb(219, 215, 213);
+    padding: 8px 4px;
+    outline: none;
+    border: none;
+    width: 80%;
+    border-radius: 6px;
+}
